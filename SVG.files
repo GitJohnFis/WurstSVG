@@ -1,0 +1,51 @@
+< UNICORN SVG >
+**Rating 6/10
+**Name unicorn design
+**Note Supports all browzers
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Outer Circle (Black and White Duotone) with Gradient for Depth -->
+  <defs>
+    <linearGradient id="gradientOuter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#555" />
+      <stop offset="100%" stop-color="#333" />
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="45" stroke="url(#gradientOuter)" stroke-width="4" fill="none"/>
+  
+  <!-- Inner Circle (Black and White Duotone) with Gradient -->
+  <defs>
+    <linearGradient id="gradientInner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#555" />
+      <stop offset="100%" stop-color="#333" />
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="30" stroke="url(#gradientInner)" stroke-width="4" fill="none"/>
+  
+  <!-- Lock Shape (Detailed) with Gradient for Depth -->
+  <defs>
+    <linearGradient id="lockGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#888" />
+      <stop offset="100%" stop-color="#555" />
+    </linearGradient>
+  </defs>
+  <rect x="40" y="40" width="20" height="25" stroke="url(#lockGradient)" stroke-width="4" fill="url(#lockGradient)" rx="5" />
+  
+  <!-- Lock Top (Rectangle for Handle) with Gradient and Detailing -->
+  <rect x="45" y="30" width="10" height="10" stroke="url(#lockGradient)" stroke-width="4" fill="url(#lockGradient)" rx="5"/>
+  
+  <!-- Lock Keyhole (Circle) with Detailing -->
+  <circle cx="50" cy="57" r="3" stroke="#888" stroke-width="4" fill="none"/>
+  
+  <!-- Inner Circle (Keyhole Depth) for Realism -->
+  <circle cx="50" cy="57" r="1.5" fill="#555" />
+  
+  <!-- Lock Detailing (Subtle Shadows and Texture) -->
+  <path d="M 40 40 C 43 43, 47 43, 50 40" stroke="#444" stroke-width="1" fill="none"/> <!-- Shadow line on lock -->
+  <path d="M 50 40 C 53 37, 57 37, 60 40" stroke="#444" stroke-width="1" fill="none"/> <!-- Shadow detail -->
+  
+  <!-- Lock Base and Texture Detailing -->
+  <line x1="45" y1="45" x2="55" y2="45" stroke="#444" stroke-width="1"/> <!-- Base line for lock -->
+  
+  <!-- Subtle Shadow Behind the Lock for Depth -->
+  <circle cx="50" cy="50" r="33" stroke="none" fill="rgba(0, 0, 0, 0.2)" />
+</svg>
